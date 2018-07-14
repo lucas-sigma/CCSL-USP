@@ -1,0 +1,7 @@
+[
+  "test-fatorial.py::test_fatorial0",
+  "test-fatorial.py::test_fatorial1",
+  "test-fatorial.py::test_fatorial_negativo",
+  "test-fatorial.py::test_fatorial4",
+  "test-fatorial.py::test_fatorial5"
+]
