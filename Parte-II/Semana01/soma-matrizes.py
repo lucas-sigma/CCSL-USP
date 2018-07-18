@@ -10,10 +10,14 @@ def dimensoes(m):
 def soma_matrizes(m1, m2):
     soma = m1[:]
     if dimensoes(m1) == dimensoes(m2):
-        for i in range(len(m1)):
-            for j in range(len(m1)):
-                soma[i][j] = m1[i][j] + m2[i][j]
-        soma[-1][-1] = m1[-1][-1] + m2[-1][-1]
-        soma[0][-1] = m1[0][-1] + m2[0][-1]
-        return soma
+        if len(m1) == 1:
+            soma[0][0] = m1[0][0] + m2[0][0]
+            return soma
+        else:
+            for i in range(len(m1)):
+                for j in range(len(m1)):
+                    soma[i][j] = m1[i][j] + m2[i][j]
+            soma[-1][-1] = m1[-1][-1] + m2[-1][-1]
+            soma[0][-1] = m1[0][-1] + m2[0][-1]
+            return soma
     return False

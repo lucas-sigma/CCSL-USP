@@ -5,5 +5,6 @@ def dimensoes(m):
         for nested in range(len(m[each])):
             j += 1
         i += 1
-    resultado = print(i,'X',j)
-    return resultado
+    print(i, end="")
+    print('X', end="")
+    print(j, end="")
