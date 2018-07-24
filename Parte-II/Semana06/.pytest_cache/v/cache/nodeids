@@ -1,10 +1,11 @@
 [
-  "fibonacci_recursivo.py::testa_fibonacci[0-0]",
-  "fibonacci_recursivo.py::testa_fibonacci[1-1]",
-  "fibonacci_recursivo.py::testa_fibonacci[2-1]",
-  "fibonacci_recursivo.py::testa_fibonacci[3-2]",
-  "fibonacci_recursivo.py::testa_fibonacci[4-3]",
-  "fibonacci_recursivo.py::testa_fibonacci[5-5]",
-  "fibonacci_recursivo.py::testa_fibonacci[6-8]",
-  "fibonacci_recursivo.py::testa_fibonacci[7-13]"
+  "busca_binaria_recursiva.py::testa_busca_binaria[lista0-10-0]",
+  "busca_binaria_recursiva.py::testa_busca_binaria[lista1-20-1]",
+  "busca_binaria_recursiva.py::testa_busca_binaria[lista2-30-2]",
+  "busca_binaria_recursiva.py::testa_busca_binaria[lista3-40-3]",
+  "busca_binaria_recursiva.py::testa_busca_binaria[lista4-50-4]",
+  "busca_binaria_recursiva.py::testa_busca_binaria[lista5-60-5]",
+  "busca_binaria_recursiva.py::testa_busca_binaria[lista6-70-False]",
+  "busca_binaria_recursiva.py::testa_busca_binaria[lista7-15-False]",
+  "busca_binaria_recursiva.py::testa_busca_binaria[lista8--10-False]"
 ]
