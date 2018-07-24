@@ -1,0 +1,7 @@
+[
+  "test-fatorial.py::testa_fatorial[0-1]",
+  "test-fatorial.py::testa_fatorial[1-1]",
+  "test-fatorial.py::testa_fatorial[-10-0]",
+  "test-fatorial.py::testa_fatorial[4-24]",
+  "test-fatorial.py::testa_fatorial[5-120]"
+]
