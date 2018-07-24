@@ -1,0 +1,6 @@
+{
+  "test_ordenador.py::TestaOrdenador::()::test_bubble_short_aleat": true,
+  "test_ordenador.py::TestaOrdenador::()::test_bubble_short_quase": true,
+  "test_ordenador.py::TestaOrdenador::()::test_selecao_direta_aleat": true,
+  "test_ordenador.py::TestaOrdenador::()::test_selecao_direta_quase": true
+}
