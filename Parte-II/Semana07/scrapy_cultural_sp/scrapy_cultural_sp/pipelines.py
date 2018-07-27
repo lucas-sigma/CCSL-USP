@@ -1,0 +1,18 @@
+# -*- coding: utf-8 -*-
+
+# Define your item pipelines here
+#
+# Don't forget to add your pipeline to the ITEM_PIPELINES setting
+# See: https://doc.scrapy.org/en/latest/topics/item-pipeline.html
+
+
+class ScrapyCulturalSpPipeline(object):
+    def process_item(self, item, spider):
+        return item
+
+class ViradaCulturalSpider(CrawlerSpider):
+        name = 'virada_cultural'
+        start_urls = ['http://www.viradaculturalpaulista.sp.gov.br']
+
+        def parse(self, response):
+            pass
